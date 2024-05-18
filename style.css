@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.menu{
+    background-color: #45015d;
+    color: white;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: fixed;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 10px 0;
+    padding: 8px 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+.main{
+    padding-left: 100px;
+    text-align: left;
+    margin: 40px 0  80px 360px;
+}
+h2{
+    color: #45015d;
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: 400px;
+    margin-top: 100px;
+}
+.galery img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+    opacity: 0.7;
+}
+h1{
+    font-size: 64px;
+    font-weight: 400px;
+}
+.galery img:hover{
+    opacity: 1;
+}
+hr{
+    width: 100%;
+    border: 5px solid #45015d;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+.member{
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.member img{
+    width: 100%;
+    border-radius: 10px;
+    filter: grayscale(50%);
+}
+.member .description{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 2px 16px 5px;
+}
+.member .position{
+    color: grey;
+}
+.services{
+    margin-top: 100px;
+}
+#designers{
+    margin-top: 100px;
+}
+.trf{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.tariff{
+    display: inline-block;
+    width: 44%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+.pro .tariff-name{
+    background-color: #db1111;
+}
+.tariff-name{
+    background-color: #45015d;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+.li-botom{
+    border-bottom: 1px solid #a5a5a5;
+    margin-top: 30px;
+    padding-bottom: 15px
+}
+.li-top{
+    margin-top: 15px;
+}
+.price{
+    font-size: 35px;
+}
+.period{
+    margin-top: 15px;
+}
+.li-hover{
+    border-top: 1px solid #a5a5a5;
+    padding: 20px;
+}
+.tariff-pro .tariff-name{
+    background-color: #db1111;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.li-tariff-pro button{
+    background-color: #db1111;
+    color: white;
+}
+input{
+    width: 90%;
+    outline: none;
+    height: 30px;
+    margin-bottom: 40px;
+    display: block;
+}
+label{
+    margin-right: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+    background-color: #45015d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 90%;
+}
+a:hover{
+    background-color: silver;
+    color: #45015d;
+}
